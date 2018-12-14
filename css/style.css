@@ -1,0 +1,158 @@
+body{
+	text-align: center;
+	color: #fff;
+	background: grey;
+	font-family: cambria;
+	background-image: url(../images/bn.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.title{
+	color: aqua;
+	padding: 5px;
+	border-radius: 5%;
+	border: 5px blue solid;
+	text-align: center;
+}
+h3 {
+	text-align: justify;
+}
+li{
+	text-align: left;
+}
+#travel {
+	margin: 5px;
+	padding: 10px;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat (12,1fr);
+	grid-template-rows: repeat (3,1fr);
+}
+
+.bbc{
+	color: aqua;
+	margin: 5px;
+	grid-column: 1/2;
+	grid-row: 1/2;
+	border: 5px blue solid;
+	border-radius: 5%;
+}
+
+.mv{
+    color: aqua;
+	padding: 5px;
+	margin: 5px;
+	grid-column: 2/3;
+	grid-row: 1/2;
+	border: 5px blue solid;
+	border-radius: 5%;
+}
+
+.tm{
+    color: aqua;
+	padding: 5px;
+	margin: 5px ;
+	grid-column: 3/4;
+	grid-row: 1/2;
+	border: 5px blue solid;
+	border-radius: 5%;
+}
+
+.bm{
+    color: aqua;
+	padding: 5px;
+	margin: 5px ;
+	grid-column: 1/2;
+	grid-row: 2/3;
+	border: 5px blue solid;
+	border-radius: 5%;
+}
+
+.sf{
+    color: aqua;
+	padding: 5px;
+	margin: 5px ;
+	grid-column: 2/3;
+	grid-row: 2/3;
+	border: 5px blue solid;
+	border-radius: 5%;
+}
+
+.bp{
+    color: aqua;
+	padding: 5px;
+	margin: 5px ;
+	grid-column: 3/3;
+	grid-row: 2/3;
+	border: 5px blue solid;
+	border-radius: 5%;
+}
+
+.sm{
+    color: aqua;
+	padding: 5px;
+	margin: 5px ;
+	grid-column: 1/2;
+	grid-row: 3/7;
+	border: 5px blue solid;
+	border-radius: 5%;
+}
+
+.cjh{
+    color: aqua;
+	padding: 5px;
+	margin: 5px ;
+	grid-column: 2/2;
+	grid-row: 3/7;
+	border: 5px blue solid;
+	border-radius: 5%;
+}
+
+.tbc{
+    color: aqua;
+	padding: 5px;
+	margin: 5px ;
+	grid-column: 3/3;
+	grid-row: 3/7;
+	border: 5px blue solid;
+	border-radius: 5%;
+}
+
+.bbg{
+    color: aqua;
+	padding: 5px;
+	margin: 5px ;
+	grid-column: 1/2;
+	grid-row: 7/7;
+	border: 5px blue solid;
+	border-radius: 5%;
+}
+
+.lh{
+    color: aqua;
+	padding: 5px;
+	margin: 5px ;
+	grid-column: 2/3;
+	grid-row: 7/7;
+	border: 5px blue solid;
+	border-radius: 5%;
+}
+
+.mp{
+    color: aqua;
+	padding: 5px;
+	margin: 5px ;
+	grid-column: 3/4;
+	grid-row: 7/7;
+	border: 5px blue solid;
+	border-radius: 5%;
+}
+
+.footer{
+	text-align: center;
+	color: aqua;
+}
